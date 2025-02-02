@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>Francesco Del Re</Authors>
+    <Description>An implementation of the iconic Matrix Rain Code effect developed in .NET C# </Description>
+    <Title>MatrixRain</Title>
+    <PackageProjectUrl>https://github.com/engineering87/matrixrain</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="Models\Column.cs" />
+  </ItemGroup>
+
+</Project>
